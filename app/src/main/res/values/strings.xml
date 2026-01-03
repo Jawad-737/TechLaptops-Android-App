@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="user">Username</string>
+    <string name="pass">Password</string>
+    <string name="register_title">Register</string>
+    <string name="RegBtn">Register</string>
+    <string name="log">Login</string>
+    <string name="app_name">TechLaptops</string>
+    <string name="about_us">About Us</string>
+
+</resources>

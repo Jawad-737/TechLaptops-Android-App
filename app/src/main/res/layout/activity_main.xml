@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backC"
+    android:gravity="center"
+    tools:context=".main">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="48dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TechLaptops"
+            android:textColor="@color/gr"
+            android:layout_gravity="center_horizontal"
+            android:textSize="45sp"
+            android:textStyle="bold"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="64dp"
+        android:paddingHorizontal="16dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/RegBtn"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="goToRegister"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/gr"
+            android:paddingHorizontal="32dp"
+            android:paddingVertical="16dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="24dp"
+        android:paddingHorizontal="16dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/log"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="goToLogin"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/gr"
+            android:paddingHorizontal="32dp"
+            android:paddingVertical="16dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="48dp"
+        android:paddingHorizontal="16dp">
+        <TextView
+            android:id="@+id/aboutUs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_us"
+            android:textColor="@color/gr"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:onClick="openAboutUs"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="16dp"/>
+    </TableRow>
+
+</TableLayout>
+
